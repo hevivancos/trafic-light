@@ -12,42 +12,58 @@
 */
 .shadow-circle{
    
-    box-shadow: 10px 5px 50px rgb(255, 255, 255);
-
+    height:100px;
+    width:100px;
+    box-shadow: 1px 2px 17px 20px #fbfcf5fd;
+    margin: auto;
 
 }
 .container {
-
-    background-color: rgb(0, 0, 0);
-    height: 250px;
-    width: 100px
-
-
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    width: 180px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(177, 7, 7);
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .red {
-    background-color: red;
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
-
-
-}
-
-.yellow {
-    background-color: rgb(238, 255, 4);
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    background-color: rgb(255, 0, 64);
+    margin: auto;
+    text-align: center;
 
 }
 
 .green {
-    background-color: rgb(1, 218, 55);
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
-git
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    background-color: rgb(26, 240, 26);
+    margin: auto;
+    text-align: center;
+}
+
+.yellow {
+    height:100px;
+    width:100px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    background-color: rgb(255, 251, 4);
+    margin: auto;
+    text-align: center;
 
 }
+
 

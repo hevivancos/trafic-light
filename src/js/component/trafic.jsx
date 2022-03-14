@@ -8,13 +8,11 @@ const Trafic = () => {
 			<div
 				className={`red ${color === "red" ? "shadow-circle" : null}`}
 				onClick={() => setColor("red")}></div>
-
 			<div
 				className={`green ${
 					color === "green" ? "shadow-circle" : null
 				}`}
 				onClick={() => setColor("green")}></div>
-
 			<div
 				className={`yellow ${
 					color === "yellow" ? "shadow-circle" : null
